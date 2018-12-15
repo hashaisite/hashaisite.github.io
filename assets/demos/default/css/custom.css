@@ -59,6 +59,9 @@
 	margin-top:65px;
 	margin-left:120px;
 }
+.c-body{
+	margin-top:50px;
+}
 
 @media only screen and (max-width: 920px) {
   .c-parallax-image{
