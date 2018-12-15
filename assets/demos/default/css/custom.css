@@ -1,0 +1,82 @@
+.code-example{
+	position:relative; left:120px; top:180px;
+	font-family: "Roboto Mono", monospace;
+	font-size:20px;
+}
+
+@media only screen and (max-width: 991px) {
+	.code-example{
+		position:relative; left:30px; top:30px;
+		font-family: "Roboto Mono", monospace;
+		font-size:13px;
+	}
+	.c-content-feature-4 .c-content-left {
+    float: left;
+    width: 100%;
+	}
+}
+
+.c-code-yellow{
+	color:#ede109;
+}
+.c-code-red{
+	color:#ea3402;
+}
+
+.c-code-purple{
+	color:#9a1af4;
+}
+
+.c-code-blue{
+	color:#60e7ff;
+}
+
+.c-code-grey{
+	color: grey;
+}
+
+.c-margin-l-50{
+	margin-left:50px;
+}
+
+.c-desktop-logo{
+  width:40px;
+  height:40px;
+}
+
+.c-desktop-logo-inverse{
+  width:40px;
+  height:40px;
+}
+
+.c-mobile-logo{
+  width:40px;
+  height:40px;
+}
+
+.c-parallax-image{
+	width:330px;
+	margin-top:65px;
+	margin-left:120px;
+}
+
+@media only screen and (max-width: 920px) {
+  .c-parallax-image{
+	width:200px;
+	margin-top:30px;
+	margin-left:150px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .c-parallax-image{
+	width:180px;
+	margin-top:20px;
+	margin-left:50px;
+  }
+}
+
+
+
+
