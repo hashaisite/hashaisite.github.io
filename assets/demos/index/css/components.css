@@ -10750,7 +10750,7 @@ h1 {
 .c-content-client-logos-slider-1 .item {
   text-align: center; }
   .c-content-client-logos-slider-1 .item img {
-    max-width: 230px;
+    max-width: 320px;
     opacity: 0.8;
     filter: alpha(opacity=80);
     transition: all 0.2s; }
@@ -10766,7 +10766,7 @@ h1 {
   text-align: center;
   padding: 20px 0; }
   .c-content-client-logos-slider-3 .item img {
-    max-width: 230px;
+    max-width: 320px;
     opacity: 0.8;
     filter: alpha(opacity=80);
     transition: all 0.2s;

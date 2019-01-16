@@ -29,3 +29,9 @@
   right: 10px;
   left: auto;
 }
+
+.item.logo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
