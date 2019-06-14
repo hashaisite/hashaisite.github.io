@@ -1,0 +1,45 @@
+/**
+ * ---------------------------------------
+ * This demo was created using amCharts 4.
+ * 
+ * For more information visit:
+ * https://www.amcharts.com/
+ * 
+ * Documentation is available at:
+ * https://www.amcharts.com/docs/v4/
+ * ---------------------------------------
+ */
+
+// Themes begin
+am4core.useTheme(am4themes_animated);
+// Themes end
+
+var chart = am4core.create("chartdiv", am4charts.PieChart3D);
+chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
+
+chart.legend = new am4charts.Legend();
+
+chart.data = [
+  {
+    country: "团队发展",
+    litres: 30
+  },
+  {
+    country: "社区激励",
+    litres: 20
+  },
+  {
+    country: "生态发展",
+    litres: 40
+  },
+  {
+    country: "合作伙伴",
+    litres: 10
+  }
+];
+
+chart.innerRadius = 100;
+
+var series = chart.series.push(new am4charts.PieSeries3D());
+series.dataFields.value = "litres";
+series.dataFields.category = "country";
